@@ -32,7 +32,7 @@ def randomize_files(files):
         yield files[file_index]
 
 
-def find_files(directory, pattern='*.wav'):
+def find_files(directory, pattern='*.WAV'):
     '''Recursively finds all files matching the pattern.'''
     files = []
     for root, dirnames, filenames in os.walk(directory):
